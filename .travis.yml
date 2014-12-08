@@ -1,3 +1,17 @@
 language: ruby
 rvm:
   - 2.0.0
+
+before_install:
+  - brew update
+  - brew install libtool
+  - brew install autoconf
+  - brew install automake
+
+before_script:
+  - git clone git@github.com:bitcoin/secp256k1.git
+  - cd secp256k1
+  - ./autogen.sh
+  - ./configure
+  - make
+  - make install
