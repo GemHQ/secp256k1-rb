@@ -1,7 +1,9 @@
 language: ruby
 rvm:
   - 2.0.0
-
+before_install:
+  - sudo apt-get update -qq
+  - sudo apt-get install -qq git libtool autoconf automake
 before_script:
   - git clone git@github.com:bitcoin/secp256k1.git
   - cd secp256k1
