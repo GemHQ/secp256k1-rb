@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/GemHQ/secp256k1-rb.png)](https://travis-ci.org/GemHQ/secp256k1-rb) [![Coverage Status](https://img.shields.io/coveralls/GemHQ/secp256k1-rb.svg)](https://coveralls.io/r/GemHQ/secp256k1-rb?branch=master) [![Code Climate](https://codeclimate.com/github/GemHQ/secp256k1-rb.png)](https://codeclimate.com/github/GemHQ/secp256k1-rb) [![Gem Version](https://badge.fury.io/rb/secp256k1-rb.png)](http://badge.fury.io/rb/secp256k1-rb)
+
 # Secp256k1: A ruby wrapper for libsecp256k1
 
 This is a ruby wrapper for using libsecp256k1 in Ruby. The c library was originally written by Peter Wiulle for use in Bitcoin core libraries to replace OpenSSL for Bitcoin cryptographic functions.
