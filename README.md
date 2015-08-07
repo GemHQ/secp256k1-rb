@@ -17,7 +17,7 @@ You must first install libsecp256k1
     $ git clone git@github.com:bitcoin/secp256k1.git
     $ cd secp256k1
 
-    $ ./autogem.sh
+    $ ./autogen.sh
     $ ./configure
     $ make
     $ sudo make install
